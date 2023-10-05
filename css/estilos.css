@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar{
+    border: 1px solid #ccc;
+}
+input {
+    height: 1.8rem;
+    border: 1px solid #ccc;
+    padding: 5px; 
+    border-radius: 4px; 
+}
+.d-flex.d-column{
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+button[type="submit"] {
+    margin-top: 1rem;
+    height: 1.8rem;
+    border: none;
+    color: #ffff;
+    background: #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* LOGIN */
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_login,#form_registro {
+    background-color: #ffff;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.is-disabled{
+    color:gray;
+    cursor: not-allowed;
+}
+/* /LOGIN */
